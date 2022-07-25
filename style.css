@@ -17,13 +17,18 @@ background-size: cover;
 }
 .container{
     background-color: rgb(217, 226, 240);
-    width: 250px;
+    width: 300px;
     margin: auto;
     border: 1px solid hsl(210deg 18% 87%);
     border-radius: 6px;
     box-sizing: border-box;
     padding-top: 10px;
     box-shadow:  5px 4px 4px rgb(131, 167, 131);
+}
+
+h2{
+    text-align: center;
+    font-weight: bold;
 }
 
 h3{
@@ -63,4 +68,9 @@ img{
     margin: auto;
     width: 30px;
     height: 30px;
+}
+
+h4{
+    text-align: center;
+    color: red;
 }
