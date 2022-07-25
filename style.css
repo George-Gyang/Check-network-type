@@ -43,7 +43,7 @@ margin-left: 5%;
 input{
     display: block;
     width: 90%;
-    line-height: 20px;
+    height: 30px;
     margin: 5px auto;
     border: 1.5px solid #d0d7de;
     border-radius: 6px;
@@ -57,10 +57,14 @@ button{
     display: block;
     background-color: hsl(137deg 57% 41%);
     color: white;
-    width: 95%;
+    width: 90%;
     margin: 10px auto;
     border-radius: 6px;
-line-height: 20px;
+    height: 30px;
+}
+button:hover{
+    background-color: black;
+    color: d0d7de;
 }
 
 img{
